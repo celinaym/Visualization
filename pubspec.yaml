@@ -1,0 +1,27 @@
+name: bike_visualization
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.1
+  google_maps_flutter: ^2.0.6
+  geolocator: ^9.0.2
+  shared_preferences: ^2.0.15
+  csv: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/bike_cluster_data.csv
+    - assets/bicycle.jpg # Add this line to include the bicycle image asset
